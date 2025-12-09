@@ -1,0 +1,80 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Frame -->
+  <rect
+    x="3"
+    y="3"
+    width="42"
+    height="42"
+    rx="2"
+    stroke="url(#frameGradient)"
+    stroke-width="1.5"
+    fill="none"
+  />
+  
+  <!-- Inner Frame -->
+  <rect
+    x="7"
+    y="7"
+    width="34"
+    height="34"
+    rx="1"
+    stroke="url(#innerFrameGradient)"
+    stroke-width="0.75"
+    fill="none"
+  />
+  
+  <!-- Corner Accents - Top Left -->
+  <path
+    d="M3 12 L3 3 L12 3"
+    stroke="url(#accentGradient)"
+    stroke-width="2.25"
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Corner Accents - Bottom Right -->
+  <path
+    d="M45 36 L45 45 L36 45"
+    stroke="url(#accentGradient)"
+    stroke-width="2.25"
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Letter P -->
+  <text
+    x="50%"
+    y="54%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Georgia, serif"
+    font-weight="600"
+    font-size="22"
+    fill="url(#letterGradient)"
+  >P</text>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78716c" />
+      <stop offset="50%" stop-color="#a8a29e" />
+      <stop offset="100%" stop-color="#78716c" />
+    </linearGradient>
+    
+    <linearGradient id="innerFrameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d6d3d1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a8a29e" stop-opacity="0.3" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="50%" stop-color="#f5d67b" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+    
+    <linearGradient id="letterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#44403c" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+  </defs>
+</svg>
